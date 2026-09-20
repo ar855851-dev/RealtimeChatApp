@@ -8,6 +8,6 @@ const server = require('./app');
 
 const port = process.env.PORT_NUMBER || 5000;
 
-server.listen(port, () => {
-    console.log('listening to requests on port ' + port); 
+server.listen(port, '0.0.0.0', () => {
+    console.log(`listening to requests on port`+ port); 
 });
