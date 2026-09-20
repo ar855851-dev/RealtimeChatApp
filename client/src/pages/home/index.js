@@ -6,7 +6,7 @@ import { io } from "socket.io-client";
 import { useEffect, useState } from "react";
 
 
-const socket = io('http://localhost:5000');
+const socket = io('https://realtimechatapp-7ooa.onrender.com');
 
 
 function Home() {
